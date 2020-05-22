@@ -9,13 +9,50 @@ This GitHub organization allows individuals and teams throughout the St. Thomas 
 If you are new to Git and GitHub, learn more with GitHub's [guides](https://guides.github.com/) and [labs](https://lab.github.com/). It can also be helpful to explore training for [Git](https://git-scm.com/doc), the technology at the heart of GitHub.
 
 ## Structure
-The St. Thomas *organization* is the owner of all *repositories* stored within the org. The creator of a repository is its default *admin*. The admin decides which other teams and individuals can access the repository and exactly how much control to grant them.
+The St. Thomas *organization* is the *owner* of all *repositories* stored within the org. The creator of a repository is its default *admin*. The admin decides which other teams and individuals can access the repository and exactly how much control to grant them.
 
 ## Logging in
-Our GitHub Campus works by linking users' GitHub accounts to their St. Thomas accounts. When you first try to log in, go to https://github.com/orgs/UniversityOfSaintThomas/sso . You will be prompted to log into both your St. Thomas account and your GitHub account. (You will be prompted to create a GitHub account if you do not already have one.) After that, your accounts will remain permanently linked. Anyone with a valid St. Thomas account (including xtra- accounts) can join our GitHub Campus organization.
+Our GitHub Campus works by linking users' GitHub accounts to their St. Thomas accounts. When you first try to log in, go to https://github.com/orgs/UniversityOfSaintThomas/sso. You will be prompted to log into both your St. Thomas account and your GitHub account. (You will be prompted to create a GitHub account if you do not already have one.) After that, your accounts will remain permanently linked. Anyone with a valid St. Thomas account (including xtra- accounts) can join our GitHub Campus organization.
+
+# Repositories
+If you have access to any existing repositories, you can see them here: https://github.com/UniversityOfSaintThomas. Repository management in GitHub Campus is largely the same as it is in regular GitHub, with a couple of small exceptions.
+
+## Repository Creation
+You can create a repository (or "repo") by following [GitHub's instructions](https://help.github.com/en/enterprise/2.20/user/github/creating-cloning-and-archiving-repositories/creating-a-new-repository), or by visiting the St. Thomas GitHub Campus homepage and clicking the green "New" button in the upper-right corner.
+
+It is important that you set the Owner to UniversityOfSaintThomas, *not* your personal account. If you do not, the repo will not be part of the St. Thomas organization and will not be able to make use of any of our GitHub Campus features. (You will still be admin on any repos you create.)
+
+## Repository Visibility
+Repositories can be *public*, *internal*, or *private*. 
+
+### Private repos
+A private repo is visible only to the teams and individuals you choose. This is the appropriate setting for most repos at St. Thomas.
+
+### Public repos
+A public repo is visible to everyone in the world, making it "open source." You **should not** use this setting unless you know what you are doing. 
+
+You should carefully review the repo to ensure it includes no Yellow or Red data (according to the St. Thomas [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/)), attach the appropriate licenses, and obtain any required clearances. (Specific requirements vary by department and division.)
+
+### Internal repos
+An internal repo is visible to everyone within the St. Thomas community, and no one else. This does not require licensing or clearances, but, since you'll be sharing your repo with 15,000 St. Thomas faculty, staff, employees, and others, you should still be careful to follow the [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/). 
+
+This ReadMe is an example of an internal repo.
+
+## Managing Repository Access
+If you are admin on a repository, you can enter the repo, click the Settings tab, then select Manage Access from the left sidebar to "invite" individuals or teams to your repo. You can assign different levels of access to different teams; the access levels are described by Git, and range from simple read-only access to full admin rights.
+
+## Importing a Repository
+Since St. Thomas's GitHub Campus is so new, you may already have repos related to your work at St. Thomas that exist outside the St. Thomas GitHub Campus organization. You can transfer ownership of a repository from your personal account to the St. Thomas organization by following [these instructions](https://help.github.com/en/github/administering-a-repository/transferring-a-repository).
+
+When you transfer a repo to St. Thomas ownership, your admin rights are downgraded to write access. This is an annoying quirk. The GitHub Campus Administrator (currently me, [James Heaney](mailto:jjheaney@stthomas.edu)) will receive a notification whenever this happens and will restore your admin rights in a timely manner. However, some of our users prefer to avoid the issue by creating a new repo within the St. Thomas org (so they have admin rights), then pushing their old personal repo to the new St. Thomas repo, then finally deleting the old repo.
 
 # Teams
-The St. Thomas organization contains a number of *teams*. You can view the existing teams here: https://github.com/orgs/UniversityOfSaintThomas/teams . At this writing, ITS has created only a few teams focused on ITS, but we plan to add more soon. You can also create your own teams.
+The St. Thomas organization contains a number of *teams*. You can view the existing teams here: https://github.com/orgs/UniversityOfSaintThomas/teams . At this writing, ITS has created only a few teams focused on ITS, but we plan to add more soon.
+
+### Team Creation Etiquette
+Any user of the St. Thomas GitHub Campus Organization is free to create and manage teams -- as many as you want. You can do so by visiting the [Teams page](https://github.com/orgs/UniversityOfSaintThomas/teams) and clicking the green "New team" button in the top right corner. 
+
+We request that any teams you create be set to Secret (not Visible). The list of Visible teams is curated by ITS.
 
 Teams can be *synchronized* or *unsynchronized*. 
 
@@ -30,8 +67,5 @@ If you are a team's admin (or are creating a team), you can connect it to a St. 
 
 ### Unsynchronized Teams
 An unsynchronized team is created in GitHub but not connected to any St. Thomas group. The team's admin must manually manage its member list within GitHub campus. This is done through the team's Members tab. It is simpler to set up initially, but more arduous to manage. Unsynchronized teams may also have child teams. (Synchronized teams may not.)
-
-### Team Creation Etiquette
-Any user of the St. Thomas GitHub Campus Organization is free to create and manage teams -- as many as you want, synchronized or unsyncrhonized. However, we request that any teams you create be set to Secret (not Visible). The list of Visible teams is curated by ITS.
 
 
