@@ -18,7 +18,7 @@ Our GitHub Campus works by linking users' GitHub accounts to their St. Thomas ac
 If you have access to any existing repositories, you can see them here: https://github.com/UniversityOfSaintThomas. Repository management in GitHub Campus is largely the same as it is in regular GitHub, with a couple of small exceptions.
 
 ## Repository Creation
-You can create a repository (or "repo") by following [GitHub's instructions](https://help.github.com/en/enterprise/2.20/user/github/creating-cloning-and-archiving-repositories/creating-a-new-repository), or by visiting the St. Thomas GitHub Campus homepage and clicking the green "New" button in the upper-right corner.
+You can create a repository (or "repo") by following [GitHub's instructions](https://help.github.com/en/enterprise/2.20/user/github/creating-cloning-and-archiving-repositories/creating-a-new-repository), or by visiting the St. Thomas GitHub Campus homepage and clicking the green "New" button in the upper-right corner. You are free to create and manage as many repos as you want.
 
 It is important that you set the Owner to UniversityOfSaintThomas, *not* your personal account. If you do not, the repo will not be part of the St. Thomas organization and will not be able to make use of any of our GitHub Campus features. (You will still be admin on any repos you create.)
 
@@ -34,7 +34,7 @@ A public repo is visible to everyone in the world, making it "open source." You 
 You should carefully review the repo to ensure it includes no Yellow or Red data (according to the St. Thomas [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/)), attach the appropriate licenses, and obtain any required clearances. (Specific requirements vary by department and division.)
 
 ### Internal repos
-An internal repo is visible to everyone within the St. Thomas community, and no one else. This does not require licensing or clearances, but, since you'll be sharing your repo with 15,000 St. Thomas faculty, staff, employees, and others, you should still be careful to follow the [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/). 
+An internal repo is visible to everyone within the St. Thomas community, and no one else. This does not require licensing or clearances, but, since you'll be sharing your repo with 15,000 St. Thomas faculty, staff, employees, and others, you should still be careful to follow the [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/). Since internal repos show up on *everyone's* dashboard, ITS may curate these and set them to Private at ITS's discretion. 
 
 This ReadMe is an example of an internal repo.
 
