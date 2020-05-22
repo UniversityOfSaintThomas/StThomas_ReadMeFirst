@@ -81,4 +81,5 @@ Other groups, especially the ones with the "Group:" prefix, are managed manually
 ### Unsynchronized Teams
 An unsynchronized team is created in GitHub but not connected to any St. Thomas group. The team's admin must manually manage its member list within GitHub campus. This is done through the team's Members tab. It is simpler to set up initially, but more arduous to manage. Unsynchronized teams may also have child teams. (Synchronized teams may not.)
 
-
+# Need help?
+ITS is available to provide any assistance you may need with the St. Thomas GitHub. Email techdesk@stthomas.edu to open a support ticket (cc jjheaney@stthomas.edu).
