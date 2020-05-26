@@ -44,16 +44,18 @@ This ReadMe is an example of an internal repo.
 If you are admin on a repository, you can enter the repo, click the Settings tab, then select Manage Access from the left sidebar to "invite" individuals or teams to your repo. You can assign different levels of access to different teams; the access levels are described by Git, and range from simple read-only access to full admin rights.
 
 ## Importing a Repository
-Since St. Thomas's GitHub Campus is so new, you may already have repos related to your work at St. Thomas that exist outside the St. Thomas GitHub Campus organization. You can transfer ownership of a repository from your personal account to the St. Thomas organization by following [these instructions](https://help.github.com/en/github/administering-a-repository/transferring-a-repository).
+Since St. Thomas's GitHub Campus is so new, you may already have St. Thomas-related repos that exist outside the St. Thomas GitHub Campus organization. You can transfer ownership of a repository from your personal account to the St. Thomas organization by following [these instructions](https://help.github.com/en/github/administering-a-repository/transferring-a-repository).
 
-When you transfer a repo to St. Thomas ownership, your admin rights are downgraded to write access. This is an annoying quirk. The GitHub Campus Administrator (currently me, [James Heaney](mailto:jjheaney@stthomas.edu)) will receive a notification whenever this happens and will restore your admin rights in a timely manner. However, some of our users prefer to avoid the issue by creating a new repo within the St. Thomas org (so they have admin rights), then pushing their old personal repo to the new St. Thomas repo, then finally deleting the old repo.
+When you transfer a repo to St. Thomas ownership, your admin rights are downgraded to write access. This is an annoying quirk. The GitHub Campus Administrator (currently me, [James Heaney](mailto:jjheaney@stthomas.edu)) will receive a notification whenever this happens and will restore your admin rights in a timely manner. 
+
+Some users prefer to avoid this issue by creating a new repo within the St. Thomas org (so they have admin rights), then pushing their old personal repo to the new St. Thomas repo, then finally deleting the old repo.
 
 # Teams
 The St. Thomas organization contains a number of *teams*. Teams offer a way for specific individuals to discuss and collaborate among themselves, and they are a marvelously convenient way to manage permissions for repositories. 
 
-For example, if you have 12 repos you want to share with another unit at St. Thomas, and that unit has 15 members, you can either add each member to each repo individually (and go through every repo again when Linda gets promoted out and they hire a new member)... or you can assign access to that unit's GitHub team, and let them manage their team's changes. You'll almost always want to manage access to repos using teams instead of individual accounts.
+For example, if you have 12 repos you want to share with another unit at St. Thomas, and that unit has 15 members, you can either add each member to each repo individually (and go through every repo again when Linda gets promoted out and they hire Leonard)... or you can assign access to that unit's GitHub team, and let *them* manage their team's changes. You'll almost always want to manage access to repos using teams instead of individual accounts.
 
-You can view the existing teams here: https://github.com/orgs/UniversityOfSaintThomas/teams. At this writing, ITS has created only a few teams focused on ITS, but we plan to add more soon.
+You can view the existing teams here: https://github.com/orgs/UniversityOfSaintThomas/teams. At this writing, ITS has created only a few very broad teams, but more will be added as more groups start using GitHub Campus.
 
 ### Team Creation Etiquette
 Any user of the St. Thomas GitHub Campus Organization is free to create and manage teams -- as many as you want. You can do so by visiting the [Teams page](https://github.com/orgs/UniversityOfSaintThomas/teams) and clicking the green "New team" button in the top right corner. 
@@ -76,7 +78,7 @@ You can find a list of the most commonly-used A.D. groups in [Outlook People Onl
 
 Some of these groups are managed automatically by ITS using Banner data. Those groups start with the prefixes "Auto:", "Staff:" and "Acad:". You can find more information about them on our [Automated Email Distribution Groups page](https://one.stthomas.edu/sites/its/SitePage/62788/auto-email-distribution-groups), and you can easily search for them using [Outlook people search](https://outlook.office.com/people/). For example, if you want all full-time faculty in the School of Engineering to be members of a team, you would connect the team to "Auto: Faculty - Full-Time - School of Engineering."
 
-Other groups, especially the ones with the "Group:" prefix, are managed manually by Outlook group owners. 
+Other groups, especially the ones with the "Group:" prefix, are managed manually by Outlook group owners. You can create an Outlook group yourself by visiting [Outlook People](https://outlook.office.com/people/). In the upper-left corner, there is a purple button that says "New Contact." Click the dropdown arrow on the right side of the button and select "New Group."
 
 ### Unsynchronized Teams
 An unsynchronized team is created in GitHub but not connected to any St. Thomas group. The team's admin must manually manage its member list within GitHub campus. This is done through the team's Members tab. It is simpler to set up initially, but more arduous to manage. Unsynchronized teams may also have child teams. (Synchronized teams may not.)
