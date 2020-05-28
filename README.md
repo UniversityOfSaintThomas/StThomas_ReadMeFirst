@@ -11,6 +11,9 @@ If you are new to Git and GitHub, learn more with GitHub's [guides](https://guid
 ## Logging in
 Our GitHub Campus works by linking users' GitHub accounts to their St. Thomas accounts. When you first try to log in, go to https://github.com/orgs/UniversityOfSaintThomas/sso. You will be prompted to log into both your St. Thomas account and your GitHub account. (You will be prompted to create a GitHub account if you do not already have one.) After that, your accounts will remain permanently linked. Anyone with a valid St. Thomas account (including xtra- accounts) can join our GitHub Campus organization.
 
+## The First Time You Log In
+The first time you log in, you can immediately start using the St. Thomas GitHub. However, it may take up to an hour for your account to be automatically added to all the teams you're supposed to be a member of. Thus, you may not see all the repos you expect to see right away. Log out and come back in an hour, and all your access should be correctly assigned.
+
 # Repositories
 A *repository* (or "repo") is a project folder that contains all the information about a project, including not just files, but discussions, management options, and records of all changes ever made, who made them, and when. Most people work on repos by "cloning" (copying) the GitHub repo to their personal computer, making changes there, and then "pushing" (uploading) their work back to the GitHub repo. More on this in the [Git documentation](https://git-scm.com/doc).
 
