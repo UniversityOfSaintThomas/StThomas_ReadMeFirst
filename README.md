@@ -11,8 +11,15 @@ If you are new to Git and GitHub, learn more with GitHub's [guides](https://guid
 ## Logging in
 Our GitHub Campus works by linking users' GitHub accounts to their St. Thomas accounts. When you first try to log in, go to https://github.com/orgs/UniversityOfSaintThomas/sso. You will be prompted to log into both your St. Thomas account and your GitHub account. (You will be prompted to create a GitHub account if you do not already have one.) After that, your accounts will remain permanently linked. Anyone with a valid St. Thomas account (including xtra- accounts) can join our GitHub Campus organization.
 
+After you log in, you can visit our GitHub Campus organization directly at https://github.com/orgs/UniversityOfSaintThomas/. You can also access your St. Thomas repos to from your personal dashboard at https://github.com/
+
 ## The First Time You Log In
 The first time you log in, you can immediately start using the St. Thomas GitHub. However, it may take up to an hour for your account to be automatically added to all the teams you're supposed to be a member of. Thus, you may not see all the repos you expect to see right away. Log out and come back in an hour, and all your access should be correctly assigned.
+
+## Command Line login
+If you are not using git from your command line or terminal, or if you don't know what that means, you can skip this section. 
+
+Because our GitHub Campus organization enforces SSO signin for all users, you can't simply run git push, enter your credentials, and have it work. You will need to first set up a Personal Access Token unique to your account, give it permission to touch your repos, assign it SSO access to the University of Saint Thomas organization, and use the token as your GitHub password (from the command line) going forward. Follow GitHub's guide: [Creating a personal access token for the command line](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line). How to hook this into your Git Credentials Manager (assuming you use it) is a bit more of a personal question, but you may find [these two StackOverflow answers](https://stackoverflow.com/a/54096357/2292755) helpful.
 
 # Repositories
 A *repository* (or "repo") is a project folder that contains all the information about a project, including not just files, but discussions, management options, and records of all changes ever made, who made them, and when. Most people work on repos by "cloning" (copying) the GitHub repo to their personal computer, making changes there, and then "pushing" (uploading) their work back to the GitHub repo. More on this in the [Git documentation](https://git-scm.com/doc).
