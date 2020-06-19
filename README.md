@@ -48,15 +48,13 @@ You should carefully review the repo to ensure it includes no Yellow or Red data
 ### Internal repos
 An internal repo is visible to everyone within the St. Thomas community, and no one else. This does not require licensing or clearances, but, since you'll be sharing your repo with 15,000 St. Thomas faculty, staff, employees, and others, you should still be careful to follow the [data classification policy](https://www.stthomas.edu/security/policies/dataclassificationpolicy/). Since internal repos show up on *everyone's* dashboard, ITS may curate these and set them to Private at ITS's discretion. 
 
-This ReadMe is an example of an internal repo.
-
 ## Managing Repository Access
 If you are admin on a repository, you can enter the repo, click the Settings tab, then select Manage Access from the left sidebar to "invite" individuals or teams to your repo. You can assign different levels of access to different teams; the access levels are described by Git, and range from simple read-only access to full admin rights.
 
 ## Importing a Repository
 Since St. Thomas's GitHub Campus is so new, you may already have St. Thomas-related repos that exist outside the St. Thomas GitHub Campus organization. You can transfer ownership of a repository from your personal account to the St. Thomas organization by following [these instructions](https://help.github.com/en/github/administering-a-repository/transferring-a-repository).
 
-When you transfer a repo to St. Thomas ownership, your admin rights are downgraded to write access. This is an annoying quirk. The GitHub Campus Administrator (currently me, [James Heaney](mailto:jjheaney@stthomas.edu)) will receive a notification whenever this happens and will restore your admin rights in a timely manner. 
+When you transfer a repo to St. Thomas ownership, your admin rights are downgraded to write access. This is an annoying quirk. The GitHub Campus Administrator will receive a notification whenever this happens and will restore your admin rights in a timely manner. 
 
 Some users prefer to avoid this issue by creating a new repo within the St. Thomas org (so they have admin rights), then pushing their old personal repo to the new St. Thomas repo, then finally deleting the old repo.
 
