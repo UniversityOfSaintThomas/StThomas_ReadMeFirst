@@ -29,10 +29,15 @@ GitHub Pages changes your standard GitHub repositories into hosted websites, whi
     - or (b) you made your repo visibility Private or Internal. Set your repo's visibility to Public to fix this. (This is done in Settings >> General >> Danger Zone.)
 8. You can now visit your website by clicking the Visit Site button. Please do so! Make sure it all works correctly!
 9. Since this is now a git repository, you can edit your website at any time by editing the web pages directly in GitHub, or by cloning the repository to any computer and revising it there.
-10. Since these repositories are public, please take care not to put any confidential data in them! Thank you!
+
+# Limitations
+- GitHub Pages will not run any scripting languages, such as PHP or ASP. It also will not play well with a backing database. If you need those things, you probably need a beefier site than Pages can provide, and will need to consult ITS.
+- Your site will pretty appear at universityofsaintthomas.github.io/\[your_repo_name\]. While there is some ability to direct this to another domain or subdomain (but never another subdirectory), doing so requires DNS and certificate changes, and you will need to consult ITS.
+- There is no lifeguard on duty in our GitHub Pages space. You are freed of general University branding and tooling restrictions, but ITS may not be able to help with any experiments that go wrong. (We are, of course, able to help with all the basics, like getting your website set up in the first place.)
 
 # No Thank Yous
 - Please do not use St Thomas's GitHub Pages to host your personal business website.
+- ...or anything confidential. (Remember, all your source code is public!)
 - ...or anything illegal.
 - ...or anything that violates the Catholic mission of the school, including racism, pornography, and other obviously terrible ideas.
 - Although designed to empower faculty, staff, and students to create their own websites with minimal oversight, St. Thomas does still own this webspace, and will pull down any problematic content.
