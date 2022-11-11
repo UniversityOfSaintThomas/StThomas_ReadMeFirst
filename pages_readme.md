@@ -29,6 +29,7 @@ GitHub Pages changes your standard GitHub repositories into hosted websites, whi
     - or (b) you made your repo visibility Private or Internal. Set your repo's visibility to Public to fix this. (This is done in Settings >> General >> Danger Zone.)
 8. You can now visit your website by clicking the Visit Site button. Please do so! Make sure it all works correctly!
 9. Since this is now a git repository, you can edit your website at any time by editing the web pages directly in GitHub, or by cloning the repository to any computer and revising it there.
+10. You can visit the website created by this demo at [https://universityofsaintthomas.github.io/demopages/](https://universityofsaintthomas.github.io/demopages/), and its repository at [https://github.com/UniversityOfSaintThomas/demopages](https://github.com/UniversityOfSaintThomas/demopages).
 
 # Limitations
 - GitHub Pages will not run any scripting languages, such as PHP or ASP. It also will not play well with a backing database. If you need those things, you probably need a beefier site than Pages can provide, and will need to consult ITS.
